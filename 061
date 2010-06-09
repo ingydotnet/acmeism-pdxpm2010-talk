@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+                         C'Dent Design Goals
+     
+     * Find a usable OO subset
+     * Reuse when possible
+       * Runtime when not possible
+     * Make Foo.cd.* modules actually work.
+     * Make Foo.* modules nice to read.
+     * Don't use more runtime than you need.
+
+
+
+
+
+
+
+
+

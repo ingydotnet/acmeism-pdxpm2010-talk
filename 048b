@@ -1,0 +1,24 @@
+
+
+
+                          Dive into C'Dent
+     
+     > cdent --help
+     > cdent --version
+     
+     > cdent --compile --in=world.py --out=rb
+     > cdent --compile --in=world.py --out=pm
+     > cdent --compile --in=world.py --out=js
+     > cdent --compile --in=world.py --out=php
+     > cdent --compile --in=world.py --out=py
+     > cdent --compile --in=world.py --out=java
+     
+
+
+
+
+
+
+
+
+

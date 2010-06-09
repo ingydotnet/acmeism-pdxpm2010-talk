@@ -1,0 +1,24 @@
+
+
+
+                           C'Dent is Alive
+     
+     * C'Dent is a compiler.
+     * Get it here: http://pypi.python.org/pypi/cdent/
+     
+         pip install cdent
+     
+     or:
+     
+         easy_install cdent
+     
+     or
+     
+         git clone git://github.com/ingydotnet/cdent.git
+     
+            >>> Show C'Dent compiler in action <<<
+
+
+
+
+

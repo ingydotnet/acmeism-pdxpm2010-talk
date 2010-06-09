@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+                      How C'Dent works (Step 1)
+     
+     * C'Dent defines a common abstract structure tree
+     * From this structure you can emit equivalent modules
+       * In many many languages
+     * The world module tree can be viewed in yaml.
+
+
+
+
+
+
+
+
+
+

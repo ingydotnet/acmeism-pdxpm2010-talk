@@ -1,0 +1,24 @@
+
+
+
+     # Simple Example (3 Tests)
+     
+     %TestML: 1.0
+     
+     *mixed.uppercase() == *upper;
+     *mixed.lowercase() == *lower;
+     
+     === Test mixed case string
+     --- mixed: I Like Pie
+     --- upper: I LIKE PIE
+     --- lower: i like pie
+     
+     === Test lower case string
+     --- mixed: I Love Lucy
+     --- upper: I LOVE LUCY
+
+
+
+
+
+
