@@ -8,7 +8,7 @@ function navigate(e) {
         ? e.keyCode
         : e.which;
     if (keynum == 8) {
-        window.location = "067z" + ".html";
+        window.location = "067" + ".html";
         return false;
     }
     if (keynum == 13 || keynum == 32) {
@@ -27,21 +27,21 @@ function navigate(e) {
 <pre>
 
 
-     # Simple Example (3 Tests)
+
+
+                         TestML Design Goals
      
-     %TestML: 1.0
+     * TestML use portable coding
+     * reParse to parse the language
      
-     *mixed.uppercase() == *upper;
-     *mixed.lowercase() == *lower;
+     * TestML works with multiple test *frameworks*
+     * Python == unittest, py.test, nose
+     * Runner class for each framework
      
-     === Test mixed case string
-     --- mixed: I Like Pie
-     --- upper: I LIKE PIE
-     --- lower: i like pie
-     
-     === Test lower case string
-     --- mixed: I Love Lucy
-     --- upper: I LOVE LUCY
+     * Language specific code goes in a Bridge class
+     * Bridge classes may one day be C'Dent!
+
+
 
 
 

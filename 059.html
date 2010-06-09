@@ -8,7 +8,7 @@ function navigate(e) {
         ? e.keyCode
         : e.which;
     if (keynum == 8) {
-        window.location = "058" + ".html";
+        window.location = "058z" + ".html";
         return false;
     }
     if (keynum == 13 || keynum == 32) {
@@ -28,20 +28,20 @@ function navigate(e) {
 
 
 
-                    C'Dent is Statically Typed!!
+
+
+
+                         C'Dent Design Goals
      
-     * OSDC Langs are dynamically, and often weakly, typed
-     * AST needs exact types to generate code
-     * Simple example:
-     
-        if str == 'foo' or num == 42:
-        if ($str eq 'foo' or $num == 42) {
-     
-     * C'Dent scans the AST and assigns a type to every object
-     * If it can't find the type or finds a mismatch...
-       ... it's a *compile-time* error.
-     
-     * At runtime there is no extra type checking
+     * Find a usable OO subset
+     * Reuse when possible
+       * Runtime when not possible
+     * Make Foo.cd.* modules actually work.
+     * Make Foo.* modules nice to read.
+     * Don't use more runtime than you need.
+
+
+
 
 
 

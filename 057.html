@@ -12,7 +12,7 @@ function navigate(e) {
         return false;
     }
     if (keynum == 13 || keynum == 32) {
-        window.location = "057z" + ".html";
+        window.location = "058" + ".html";
         return false;
     }
     if (keynum == 73 || keynum == 105) {
@@ -28,20 +28,20 @@ function navigate(e) {
 
 
 
-
-                     The C'Dent Parser Grammars
+                    C'Dent is Statically Typed!!
      
-     C'Dent uses a grammar that is a Python class generated from
-     preprocessed YAML files that contain Regexp based rules.
+     * OSDC Langs are dynamically, and often weakly, typed
+     * AST needs exact types to generate code
+     * Simple example:
      
-     Let's take a looksy...
+        if str == 'foo' or num == 42:
+        if ($str eq 'foo' or $num == 42) {
      
-         * ../cdent/cdent/parser/
-         * ../cdent/cdent/parser/python/grammar.py
-         * ../cdent/src
+     * C'Dent scans the AST and assigns a type to every object
+     * If it can't find the type or finds a mismatch...
+       ... it's a *compile-time* error.
      
-
-
+     * At runtime there is no extra type checking
 
 
 

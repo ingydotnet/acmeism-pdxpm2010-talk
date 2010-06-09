@@ -8,7 +8,7 @@ function navigate(e) {
         ? e.keyCode
         : e.which;
     if (keynum == 8) {
-        window.location = "053z" + ".html";
+        window.location = "053" + ".html";
         return false;
     }
     if (keynum == 13 || keynum == 32) {
@@ -29,18 +29,18 @@ function navigate(e) {
 
 
 
-
-               How C'Dent compilation works (Overview)
+                        C'Dent implementation
      
-     * Parse - Source to AST
+     * C'Dent has **NO** dependency on Python!
      
-     * Analyze - Detect and Validate types
+         OR ANY OTHER LANGUAGE
      
-         ( .cd AST form )
+     * C'Dent uses very Acmeist code
+       * reParse
+     * Can be switched to a new language at any time
+     * I personally want to use Haskell...
      
-     * Emit - Create language specific modules
-
-
+     * Will C'Dent be self-hosted???
 
 
 

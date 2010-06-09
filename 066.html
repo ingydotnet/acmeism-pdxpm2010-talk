@@ -12,7 +12,7 @@ function navigate(e) {
         return false;
     }
     if (keynum == 13 || keynum == 32) {
-        window.location = "066z" + ".html";
+        window.location = "067" + ".html";
         return false;
     }
     if (keynum == 73 || keynum == 105) {
@@ -27,21 +27,21 @@ function navigate(e) {
 <pre>
 
 
-
-
-                               TestML
+     # Simple Example (3 Tests)
      
-     * What good are modules without tests?
+     %TestML: 1.0
      
-
-
-
-
-
-
-
-
-
+     *mixed.uppercase() == *upper;
+     *mixed.lowercase() == *lower;
+     
+     === Test mixed case string
+     --- mixed: I Like Pie
+     --- upper: I LIKE PIE
+     --- lower: i like pie
+     
+     === Test lower case string
+     --- mixed: I Love Lucy
+     --- upper: I LOVE LUCY
 
 
 

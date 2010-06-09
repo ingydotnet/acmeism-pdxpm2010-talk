@@ -12,7 +12,7 @@ function navigate(e) {
         return false;
     }
     if (keynum == 13 || keynum == 32) {
-        window.location = "056" + ".html";
+        window.location = "055z" + ".html";
         return false;
     }
     if (keynum == 73 || keynum == 105) {
@@ -29,17 +29,17 @@ function navigate(e) {
 
 
 
-
-                        C'Dent implementation
+                     The C'Dent Parser Grammars
      
-     * C'Dent is currently a Python implementation
+     C'Dent uses a grammar that is a Python class generated from
+     preprocessed YAML files that contain Regexp based rules.
      
-     * I chose Python because it has the best YAML support
-       * I can use TAGs properly!
+     Let's take a looksy...
      
-     * Python is also a pretty good language
-     * And something fun and new for Ingy!
-
+         * ../cdent/cdent/parser/
+         * ../cdent/cdent/parser/python/grammar.py
+         * ../cdent/src
+     
 
 
 

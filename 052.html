@@ -8,11 +8,11 @@ function navigate(e) {
         ? e.keyCode
         : e.which;
     if (keynum == 8) {
-        window.location = "051.yaml" + ".html";
+        window.location = "051z" + ".html";
         return false;
     }
     if (keynum == 13 || keynum == 32) {
-        window.location = "052b" + ".html";
+        window.location = "053" + ".html";
         return false;
     }
     if (keynum == 73 || keynum == 105) {
@@ -30,15 +30,15 @@ function navigate(e) {
 
 
 
-
-                      How C'Dent works (Step 2)
+               How C'Dent compilation works (Overview)
      
-     * Define some syntax to parse into this tree...
-     * ... and you are DONE!!
+     * Parse - Source to AST
      
-
-
-
+     * Analyze - Detect and Validate types
+     
+         ( .cd AST form )
+     
+     * Emit - Create language specific modules
 
 
 
