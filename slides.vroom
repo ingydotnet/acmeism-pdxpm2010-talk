@@ -29,16 +29,14 @@ by Ingy döt Net
 
 PDX.pm - 9 June 2010 - Portland, Oregon
 
-----
-== In the Beginning
-
+---- center
 Any Questions?
 
 +http://ingydotnet.github.com/acmeism-osdctw2010-talk/
 
-* Everything in this talk is on GitHub
+Everything in this talk is on GitHub
 
-* Including this Talk!!
+Including this Talk!!
 ----
 == Ingy döt Net
 
@@ -48,6 +46,13 @@ Any Questions?
 * No Ruby modules...
 +  ...YET!!!
 
+----
+== Ingy's PYRL
+
+* PYRL?
++* Projects You'll Really Like
+
+http://ingy.pyrl.org
 ----
 == What is your Ingy döt Number?
 
@@ -61,24 +66,6 @@ Any Questions?
 * Ingy loves to pair...
 
 +== LOWER your Ingy Number!   PLEASE!!!
-
-----
-== Ingy the Inventor
-
-* Inline - Write Perl subroutines in any language
-  * Cats and Dogs sleeping together
-
-+* YAML - Serialize data across languages
-  * Cats and Dogs talking to each other
-
-+* Kwiki - Community Hacked Wiki
-  * Cats and Dogs Hacking Together
-
-+* Wikiwyg - Multi syntax editor
-  * Socialtext years - Taiwan years
-
-+* Jemplate - Template Framework for JavaScript
-  * My best project ever. It's done!
 
 ----
 == Ingy the Porter
@@ -103,9 +90,9 @@ Guess what I found out???
 * They tell computers what to do.
 * OO languages all have a common set of basic components.
 
-+* You don't beieve me??
++* You don't believe me??
 
-      Viddy well...
+      Viddy well my droogs...
 
 ---- include yaml-examples
 
@@ -182,11 +169,12 @@ The first rule of Acmeism is:
 * Acmeism is about People getting together
     regardless of their language
 * Acmeism is *not* about converting people to your language
+  * Or your Virtual Machine :)
 * Acmeism is about sharing great ideas
 * Acmeism is *not* about stealing great ideas...
 +  * Unless you give them back!
 
-This is a module that Miyagawa-san stole from the Beatles...
+This is a module that Miyagawa stole from the Beatles...
 
 ----
 == Acmeism and Snow Crash
@@ -227,16 +215,7 @@ This is a module that Miyagawa-san stole from the Beatles...
 * PHP
 * Java
 
-+== OSCON - The (slightly more expensive) Acmeist Conference ;)
-
-----
-== OSDC Census
-
-* Who here writes Perl?
-* Ruby? JavaScript? Python? PHP? Java? Others?
-
-* Who here publishes packages?
-* CPAN? RubyGems? PyPi? JSAN? Pear?
+== OSCON - The (slightly more expensive) Acmeist Conference ;)
 
 ----
 == Modules - 包子 for Programmers
@@ -247,7 +226,9 @@ This is a module that Miyagawa-san stole from the Beatles...
 
 * Modern Programming == Using Good Modules
 
-* Modules keep things DRY!!!
+* Modules keep things DRY
+
+* Modules are the Crossroads of Programming Languages
 
 ----
 == Acmeist Modules are Portable
@@ -347,7 +328,7 @@ C'Dent lets you write modules in:
 ----
 == C'Dent Runtimes
 
-C'Dent lets you write modules in:
+C'Dent lets you compile modules to:
 
 * Perl
 * Python
@@ -358,15 +339,7 @@ C'Dent lets you write modules in:
 * Java
 * Python 3
 * Perl 6
-
-----
-== C'Dent Runtimes
-
-and as of this morning...
-
-+C'Dent compiles to Go!
-
-Thank you au + sartak!!!
+* Go
 
 ----
 == Who is C'Dent?
@@ -512,9 +485,9 @@ or
     OR ANY OTHER LANGUAGE
 
 * C'Dent uses very Acmeist code
+  * reParse
 * Can be switched to a new language at any time
 * I personally want to use Haskell...
-  * Need Taiwanese help
 
 * Will C'Dent be self-hosted???
 
@@ -537,7 +510,6 @@ Let's take a looksy...
 * Demo a current parse error
 * Type errors are detected after parsing
   * AST contains line number info
-
 ----
 == C'Dent is Statically Typed!!
 
@@ -580,6 +552,14 @@ Let's take a looksy...
 * Don't use more runtime than you need.
 
 ----
+== C'Dent Implementation Goals
+
+* I want to release JSYNC in many languages.
+  * Ported
+* I want to write GetOptions in many languages.
+  * C'Dent
+
+----
 == C'Dent Comparisons
 
 People have compared C'Dent to things like:
@@ -597,19 +577,6 @@ People have compared C'Dent to things like:
 * Python -> C + SWIG -> Python
 * People will target C'Dent for easy speed
 * And Everyone (Ruby, Perl, etc) will WIN!
-
-----
-
-== BPAN - What Does it Mean?
-
-* I own bpan.org
-+* I don't know what it stands for
-+* Please help me...
-
-+* Best Practical Archive Network?
-+* Beautiful Package Acmeist Network?
-
-+I think BPAN will be a home for Acmeist Module/Packages?
 
 ----
 
@@ -648,7 +615,7 @@ People have compared C'Dent to things like:
   * Perl
   * Python
 
-+* Who wants to do Ruby? TOMORROW!
++* Who wants to help me with Perl 6?
 ----
 # Simple Example (3 Tests)
 
@@ -735,8 +702,6 @@ end
 * #stardoc and #*doc
 * http://stardoc.org
 
-* CharlesIsMagic
-
 ----
 == StarDoc is like C'Dent for Doc
 
@@ -754,12 +719,7 @@ end
 ----
 == Are you an Acmeist?
 
-+* Are you a member of Shibuya.pm?
-  * I think all Shibuya Mongers are Acmeists!
-
-+* Will you check your guns at the door?
-
-+* Will YOU share your IDEAS with EVERYONE at OSDC???
+* Will YOU share your IDEAS with EVERYONE???
 
    if answer is True:
        you = 'Acmeist'
@@ -771,5 +731,5 @@ end
 
 Any Questions?
 
-http://ingydotnet.github.com/acmeism-osdctw2010-talk/
+http://ingydotnet.github.com/acmeism-pdxpm2010-talk/
 
