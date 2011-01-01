@@ -2,18 +2,18 @@
 # Basic config options.
 title: C'Dent, the Acmeism and Everyone
 indent: 5
-height: 24
-width: 69
+height: 20
+width: 65
 skip: 0
 
-# The following options are for Gvim usage.
-vim: gvim
-gvimrc: |
-  set fuopt=maxhorz,maxvert
-  set guioptions=egmLtT
-  set guifont=Bitstream_Vera_Sans_Mono:h18
-  set guicursor=a:blinkon0-ver25-Cursor
-  colorscheme default
+                       # The following options are for Gvim usage.
+# vim: gvim
+# gvimrc: |
+#   set fuopt=maxhorz,maxvert
+#   set guioptions=egmLtT
+#   set guifont=Bitstream_Vera_Sans_Mono:h18
+#   set guicursor=a:blinkon0-ver25-Cursor
+#   colorscheme default
 
 ---- center
 C'Dent, the Acmeism and Everyone
